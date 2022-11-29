@@ -1,0 +1,198 @@
+:root {
+  --main-text-color: #2E2F42;
+  --secondary-text-color: #ffffff;
+  --ouwer-text-color: #434455;
+  --acent-color: #4D5AE5;
+  --contener-color: #eeeeee;
+  --logo-color-text: #2E2F42;
+  --buttons-port-color: #f5f4fa;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --background-footer-color: #2E2F42;
+  --background-section: #F4F4FD;
+  --line-color: #ececec;
+  --background-color: #ffffff;
+  --logo-footer-color-text: #F4F4FD;
+  --down-color-text: #E7E9FC;
+}
+/* main index */
+body {
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+
+/* prittier links */
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+/* site logo */
+.logo {
+  color: var(--logo-color-text);
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.logoweb {
+  color: var(--acent-color);
+}
+/* link site */
+.link-nav {
+  color: var(--main-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+.link-nav:hover,
+.link-nav:focus {
+  color: var(--acent-color);
+}
+.nav-site, .link-nav.current {
+  color: var(--acent-color);
+}
+/* contacts */
+.contacts {
+  color: var(--ouwer-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--acent-color);
+}
+/* button */
+.order-button {
+  color: var(--background-color);
+  background-color: var(--acent-color);
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+.title-but {
+  color: var(--secondary-text-color);
+  background-color: var(--background-footer-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+/* our features */
+.features {
+  color: var(--main-text-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px; 
+  letter-spacing: 0.02em;
+}
+
+.text-features {
+  color: var(--ouwer-text-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+/* what are we doing */
+.doing-section {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px; 
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/* our team */
+.team{
+  background-color: var(--background-section);
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.our-work {
+  color: var(--ouwer-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+}
+/* portfolio */
+
+/* button portfolio */
+.portfolio-button {
+  color: var(--main-text-color);
+  background-color: var(--buttons-port-color);
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--background-color);
+  background-color: var(--acent-color);
+  cursor: pointer;
+}
+/* project portfolio */
+.project {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.name-project {
+  color: var(--ouwer-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+/* footer */
+.footer {
+  background-color: var(--background-footer-color);
+}
+.logo-footer{
+  color: var(--logo-footer-color-text);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-back{
+  color: var(--acent-color);
+}
+/* footer description */
+.down{
+  color: var(--down-color-text);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
