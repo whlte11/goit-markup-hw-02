@@ -19,8 +19,7 @@ body {
   background-color: var(--background-color);
   color: var(--main-text-color);
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
 }
 
 /* prittier links */
@@ -37,9 +36,10 @@ a {
   color: var(--logo-color-text);
   font-family: 'Raleway';
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.5;
+  text-transform: uppercase;
 }
 
 .logoweb {
@@ -48,9 +48,9 @@ a {
 /* link site */
 .link-nav {
   color: var(--main-text-color);
-  font-weight: 500;
-  line-height: 1.14;
-  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 16px;
   letter-spacing: 0.02em;
 }
 .link-nav:hover,
@@ -63,9 +63,8 @@ a {
 /* contacts */
 .contacts {
   color: var(--ouwer-text-color);
-  font-weight: 500;
-  line-height: 1.14;
-  font-size: 14px;
+  line-height: 24px;
+  font-size: 16px;
   letter-spacing: 0.02em;
 }
 .contacts:hover,
@@ -84,24 +83,40 @@ a {
   letter-spacing: 0.06em;
 }
 
+.hero{
+  background-color: var(--background-footer-color);
+
+}
+
 .title-but {
   color: var(--secondary-text-color);
-  background-color: var(--background-footer-color);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 /* our features */
 .features {
   color: var(--main-text-color);
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 20px;
-  line-height: 24px; 
+  line-height: 1.5; 
   letter-spacing: 0.02em;
+}
+
+.invisible {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .text-features {
@@ -129,15 +144,13 @@ a {
   background-color: var(--background-section);
 }
 .team-name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
 }
 .our-work {
   color: var(--ouwer-text-color);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.18;
+  line-height: 1.5;
 }
 /* portfolio */
 
@@ -146,30 +159,34 @@ a {
   color: var(--main-text-color);
   background-color: var(--buttons-port-color);
   font-family: 'Roboto';
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
+  line-height: 1.5;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: var(--background-color);
   background-color: var(--acent-color);
-  cursor: pointer;
 }
+
 /* project portfolio */
 .project {
+  color: var(--main-text-color);
   font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  font-size: 20px;
+  line-height: 1.5; 
+  letter-spacing: 0.02em;
 }
 .name-project {
-  color: var(--ouwer-text-color);
+  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.5;
 }
 
 /* footer */
@@ -179,9 +196,11 @@ a {
 .logo-footer{
   color: var(--logo-footer-color-text);
   font-family: 'Raleway';
+  font-style: normal;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: uppercase;
 }
 .logo-back{
   color: var(--acent-color);
@@ -189,10 +208,5 @@ a {
 /* footer description */
 .down{
   color: var(--down-color-text);
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
